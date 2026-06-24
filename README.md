@@ -4,6 +4,8 @@ M.Sc. Autonomy Technologies student at FAU Erlangen-Nürnberg with a background 
 
 I build simulation-first engineering projects in industrial data analysis, embedded systems, robotics, and autonomous systems. My focus is reproducible experiments, clear architecture, automated testing, and engineering decisions that can be explained and defended.
 
+Open to working student and graduate opportunities in robotics, embedded systems, automation and industrial data in Germany.
+
 ## Current focus
 
 - Industrial anomaly detection and manufacturing-quality analytics
