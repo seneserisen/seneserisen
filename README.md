@@ -31,7 +31,7 @@ Current milestone: detector-comparison protocol completed; reusable evaluation h
 **Delivery:** CLI design, Docker, reproducible experiment configuration  
 **Industrial focus:** manufacturing measurements, anomaly detection, false-alarm analysis
 
-## Academic control laboratory portfolio
+## [Academic control laboratory portfolio](https://github.com/seneserisen/seneserisen/blob/main/automatic-control-laboratory.md)
 
 Completed five MATLAB/Simulink projects in a four-person team for the Automatic Control I laboratory at FAU:
 
