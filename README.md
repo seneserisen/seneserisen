@@ -31,19 +31,19 @@ Current milestone: detector-comparison protocol completed; reusable evaluation h
 **Delivery:** CLI design, Docker, reproducible experiment configuration  
 **Industrial focus:** manufacturing measurements, anomaly detection, false-alarm analysis
 
-## [Academic control laboratory portfolio](https://github.com/seneserisen/seneserisen/blob/main/automatic-control-laboratory.md)
+## [Automatic Control Laboratory Projects](https://github.com/seneserisen/automatic-control-lab-projects)
 
-Completed five MATLAB/Simulink projects in a four-person team for the Automatic Control I laboratory at FAU:
+A published clean-room MATLAB/Python reconstruction of five four-person team projects from the Automatic Control I laboratory at FAU:
 
-- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, PI/PID loop shaping, Nyquist analysis, stability margins, prefiltering, and feedforward control
-- **Quarter-car active suspension:** state-space modelling, transfer-function analysis, frequency response, pole placement, and LQR exercises
-- **Elastically mounted rotary arm:** Bode analysis, Ziegler–Nichols tuning, fifth-order trajectory generation, feedforward control, and 1-DOF versus 2-DOF comparison
-- **Two-tank process:** Torricelli-based nonlinear modelling, FOPDT approximation, CHR PI tuning, disturbance compensation, saturation, and anti-windup analysis
-- **Nonlinear control loops:** Jacobian-based linearisation around multiple equilibria, proportional-gain stability analysis, and comparison of nonlinear and linearised Simulink models
+- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, stabilising state feedback, Nyquist reasoning, and reference tracking
+- **Quarter-car active suspension:** state-space modelling, road-disturbance simulation, passive/active comparison, and LQR feedback
+- **Elastically mounted rotary arm:** frequency response, fifth-order trajectory generation, feedforward control, and actuator limits
+- **Two-tank process:** nonlinear Torricelli flow, PI control, saturation, integral windup, and back-calculation anti-windup
+- **Nonlinear control loops:** Jacobian-based linearisation around multiple equilibria and nonlinear-versus-linearised response comparison
 
-**Tools and methods:** MATLAB, Simulink, Control System Toolbox, Symbolic Math Toolbox, state-space modelling, Bode and Nyquist methods, P/PI/PID control, pole placement, LQR, feedforward control, and disturbance analysis.
+**Public evidence:** five MATLAB demonstrations, project explanations, result previews, Python reference models, five automated tests, and GitHub Actions validation.
 
-These were academic team projects. University instruction material, raw submissions, personal identifiers, and unverified individual-contribution claims are intentionally excluded from the public profile.
+The historical exercises were academic team work. The public repository contains new portfolio reconstructions and excludes course instructions and raw team submissions.
 
 ## Development roadmap
 
