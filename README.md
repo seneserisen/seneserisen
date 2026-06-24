@@ -22,7 +22,7 @@ Implemented capabilities:
 - Unit, integration, and end-to-end tests
 - Docker and GitHub Actions across Python 3.10–3.12
 
-Current milestone: reproducible comparison of global robust Z-score, machine-aware robust Z-score, and Isolation Forest.
+Current milestone: detector-comparison protocol completed; reusable evaluation helpers and tests are next.
 
 ## Public project stack
 
@@ -30,6 +30,20 @@ Current milestone: reproducible comparison of global robust Z-score, machine-awa
 **Quality and testing:** pytest, Ruff, GitHub Actions  
 **Delivery:** CLI design, Docker, reproducible experiment configuration  
 **Industrial focus:** manufacturing measurements, anomaly detection, false-alarm analysis
+
+## Academic control laboratory portfolio
+
+Completed five MATLAB/Simulink projects in a four-person team for the Automatic Control I laboratory at FAU:
+
+- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, PI/PID loop shaping, Nyquist analysis, stability margins, prefiltering, and feedforward control
+- **Quarter-car active suspension:** state-space modelling, transfer-function analysis, frequency response, pole placement, and LQR exercises
+- **Elastically mounted rotary arm:** Bode analysis, Ziegler–Nichols tuning, fifth-order trajectory generation, feedforward control, and 1-DOF versus 2-DOF comparison
+- **Two-tank process:** Torricelli-based nonlinear modelling, FOPDT approximation, CHR PI tuning, disturbance compensation, saturation, and anti-windup analysis
+- **Nonlinear control loops:** Jacobian-based linearisation around multiple equilibria, proportional-gain stability analysis, and comparison of nonlinear and linearised Simulink models
+
+**Tools and methods:** MATLAB, Simulink, Control System Toolbox, Symbolic Math Toolbox, state-space modelling, Bode and Nyquist methods, P/PI/PID control, pole placement, LQR, feedforward control, and disturbance analysis.
+
+These were academic team projects. University instruction material, raw submissions, personal identifiers, and unverified individual-contribution claims are intentionally excluded from the public profile.
 
 ## Development roadmap
 
