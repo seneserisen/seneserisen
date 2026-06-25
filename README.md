@@ -27,7 +27,7 @@ Current milestone: detector-comparison protocol completed; reusable evaluation h
 ## Public project stack
 
 **Python engineering:** Python, NumPy, pandas, scikit-learn, Matplotlib  
-**Quality and testing:** pytest, Ruff, GitHub Actions  
+**Quality and testing:** pytest, Ruff, MATLAB `matlab.unittest`, GitHub Actions  
 **Delivery:** CLI design, Docker, reproducible experiment configuration  
 **Industrial focus:** manufacturing measurements, anomaly detection, false-alarm analysis
 
@@ -35,15 +35,15 @@ Current milestone: detector-comparison protocol completed; reusable evaluation h
 
 A published clean-room MATLAB/Python reconstruction of five four-person team projects from the Automatic Control I laboratory at FAU:
 
-- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, state feedback, nonlinear-plant validation, voltage limits, and reference tracking
+- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, pole-placement control, Luenberger observer design, noisy gap/current sensors, output feedback, voltage limits, and convergence analysis
 - **Quarter-car active suspension:** state-space modelling, road-disturbance simulation, LQR feedback, suspension travel, tire deflection, and actuator-force analysis
 - **Elastically mounted rotary arm:** fifth-order trajectory generation, feedback-only versus 2-DOF control, feedforward, load disturbance, and actuator limits
 - **Two-tank process:** nonlinear Torricelli flow, equilibrium initialization, PI saturation, integral windup, and back-calculation anti-windup
 - **Nonlinear control loops:** Jacobian linearisation, controllability, local state feedback, and quantified near-versus-far model error
 
-**Measured reference results:** about 70% lower rotary-arm tracking RMSE with 2-DOF control, about 35% lower active-suspension RMS body acceleration, below 0.001 mm magnetic-levitation linear/nonlinear RMSE, and anti-windup recovery improved from about 429 s to 312 s.
+**Measured reference results:** about 70% lower rotary-arm tracking RMSE with 2-DOF control, about 35% lower active-suspension RMS body acceleration, magnetic-levitation position-estimation RMSE below 0.001 mm, and anti-windup recovery improved from about 429 s to 312 s.
 
-**Public evidence:** five MATLAB experiments, reusable numerical utilities, generated metrics, result previews, Python reference models, 10 automated tests, and GitHub Actions across Python 3.10–3.12.
+**Public evidence:** modular MATLAB experiments, reusable numerical and metrics utilities, requirements-to-test traceability, generated results, observer and convergence studies, 15 Python tests across Python 3.10–3.12, and 10 direct MATLAB R2024b tests in GitHub Actions.
 
 The historical exercises were academic team work. The public repository contains new portfolio reconstructions and excludes course instructions and raw team submissions.
 
