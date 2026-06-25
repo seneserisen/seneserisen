@@ -2,7 +2,7 @@
 
 M.Sc. Autonomy Technologies student at FAU Erlangen-Nürnberg with a background in Electrical and Electronics Engineering.
 
-I build simulation-first engineering projects in industrial data analysis, embedded systems, robotics, and autonomous systems. My focus is reproducible experiments, clear architecture, automated testing, and engineering decisions that can be explained and defended.
+I build simulation-first engineering projects in industrial data analysis, embedded systems, robotics, and autonomous systems. My focus is reproducible experiments, clear architecture, automated testing, and measurable engineering results.
 
 Open to working student and graduate opportunities in robotics, embedded systems, automation, and industrial data in Germany.
 
@@ -10,9 +10,9 @@ Open to working student and graduate opportunities in robotics, embedded systems
 
 ### [Industrial Quality Anomaly Monitor](https://github.com/seneserisen/industrial-quality-anomaly-monitor)
 
-A working Python project that generates labelled multi-machine production data, detects abnormal process behaviour, and exports engineering reports.
+Python project for generating labelled multi-machine production data, detecting abnormal process behaviour, and exporting engineering reports.
 
-Implemented capabilities:
+Key capabilities:
 
 - Global and machine-specific robust Z-score baselines
 - Isolation Forest anomaly detection
@@ -22,30 +22,31 @@ Implemented capabilities:
 - Unit, integration, and end-to-end tests
 - Docker and GitHub Actions across Python 3.10–3.12
 
-Current milestone: detector-comparison protocol completed; reusable evaluation helpers and tests are next.
-
-## Public project stack
+## Technical stack
 
 **Programming:** Python, C99, C/C++, MATLAB  
-**Quality and testing:** pytest, Ruff, MATLAB `matlab.unittest`, CTest, GitHub Actions  
-**Build and delivery:** CMake, GCC, Clang, Docker, reproducible experiment configuration  
-**Industrial focus:** manufacturing measurements, anomaly detection, control systems, embedded-oriented runtime design
+**Testing:** pytest, Ruff, MATLAB `matlab.unittest`, CTest, GitHub Actions  
+**Build and delivery:** CMake, GCC, Clang, Docker  
+**Engineering focus:** industrial data, control systems, embedded software, robotics, and automation
 
 ## [Automatic Control Laboratory Projects](https://github.com/seneserisen/automatic-control-lab-projects)
 
-A published clean-room MATLAB/Python/C reconstruction of five four-person team projects from the Automatic Control I laboratory at FAU:
+Control-engineering portfolio covering:
 
-- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, pole-placement control, Luenberger observer design, noisy gap/current sensors, output feedback, voltage limits, convergence analysis, and a portable C99 runtime
-- **Quarter-car active suspension:** state-space modelling, road-disturbance simulation, LQR feedback, suspension travel, tire deflection, and actuator-force analysis
-- **Elastically mounted rotary arm:** fifth-order trajectory generation, feedback-only versus 2-DOF control, feedforward, load disturbance, and actuator limits
-- **Two-tank process:** nonlinear Torricelli flow, equilibrium initialization, PI saturation, integral windup, and back-calculation anti-windup
-- **Nonlinear control loops:** Jacobian linearisation, controllability, local state feedback, and quantified near-versus-far model error
+- **Magnetic levitation:** nonlinear modelling, pole-placement control, Luenberger observer design, noisy sensors, convergence analysis, and a portable C99 runtime
+- **Quarter-car active suspension:** state-space modelling, LQR feedback, road disturbance, suspension travel, tire deflection, and actuator-force analysis
+- **Elastically mounted rotary arm:** fifth-order trajectory generation, feedback versus 2-DOF control, feedforward, load disturbance, and actuator limits
+- **Two-tank process:** nonlinear Torricelli flow, PI saturation, integral windup, and back-calculation anti-windup
+- **Nonlinear control loops:** Jacobian linearisation, controllability, local state feedback, and quantified model error
 
-**Measured reference results:** about 70% lower rotary-arm tracking RMSE with 2-DOF control, about 35% lower active-suspension RMS body acceleration, magnetic-levitation position-estimation RMSE below 0.001 mm, and anti-windup recovery improved from about 429 s to 312 s.
+**Measured results:**
 
-**Public evidence:** modular MATLAB experiments, reusable numerical and metrics utilities, source-document reconstruction mapping, requirements-to-test traceability, generated results, observer and convergence studies, 15 Python tests across Python 3.10–3.12, 10 direct MATLAB R2024b tests, and a portable C99 observer runtime compiled and tested under GCC and Clang with strict warnings.
+- approximately 70% lower rotary-arm tracking RMSE with 2-DOF control;
+- approximately 35% lower active-suspension RMS body acceleration;
+- magnetic-levitation position-estimation RMSE below 0.001 mm;
+- anti-windup recovery improved from approximately 429 s to 312 s.
 
-The historical exercises were academic team work. The uploaded reports, scripts, and Simulink material are treated as source specifications for new public implementations. Raw course instructions and team submissions are excluded.
+**Validation:** 15 Python tests across Python 3.10–3.12, 10 direct MATLAB R2024b tests, and a C99 runtime compiled and tested under GCC and Clang with strict warnings.
 
 ## Development roadmap
 
@@ -60,24 +61,6 @@ Simulation-first ROS 2 project covering robot modelling, sensor integration, loc
 ### [Radar / ISAR Classification Pipeline](https://github.com/seneserisen/radar-isar-classification-pipeline) — planned
 
 Reproducible signal- and image-processing project for dataset validation, preprocessing, classical baselines, model evaluation, and uncertainty analysis.
-
-## Next technical areas
-
-- Embedded C/C++, CAN, and battery-management systems
-- ROS 2, Gazebo, SLAM, and Nav2
-- Radar and ISAR signal/image processing
-- Industrial SQL pipelines and Power BI reporting
-
-## Engineering approach
-
-- MATLAB for modelling and controller design
-- Python for independent numerical validation and automation
-- C/C++ for deterministic deployment-oriented control logic
-- Simulation and open data before unnecessary hardware purchases
-- Tests before published performance claims
-- Reproducible seeds, configurations, and experiment outputs
-- Clear separation between implemented, active, and planned work
-- Documentation of limitations, risks, and design trade-offs
 
 ## Background
 
