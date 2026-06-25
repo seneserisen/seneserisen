@@ -26,16 +26,16 @@ Current milestone: detector-comparison protocol completed; reusable evaluation h
 
 ## Public project stack
 
-**Python engineering:** Python, NumPy, pandas, scikit-learn, Matplotlib  
-**Quality and testing:** pytest, Ruff, MATLAB `matlab.unittest`, GitHub Actions  
-**Delivery:** CLI design, Docker, reproducible experiment configuration  
-**Industrial focus:** manufacturing measurements, anomaly detection, false-alarm analysis
+**Programming:** Python, C99, C/C++, MATLAB  
+**Quality and testing:** pytest, Ruff, MATLAB `matlab.unittest`, CTest, GitHub Actions  
+**Build and delivery:** CMake, GCC, Clang, Docker, reproducible experiment configuration  
+**Industrial focus:** manufacturing measurements, anomaly detection, control systems, embedded-oriented runtime design
 
 ## [Automatic Control Laboratory Projects](https://github.com/seneserisen/automatic-control-lab-projects)
 
-A published clean-room MATLAB/Python reconstruction of five four-person team projects from the Automatic Control I laboratory at FAU:
+A published clean-room MATLAB/Python/C reconstruction of five four-person team projects from the Automatic Control I laboratory at FAU:
 
-- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, pole-placement control, Luenberger observer design, noisy gap/current sensors, output feedback, voltage limits, and convergence analysis
+- **Magnetic levitation:** nonlinear modelling, operating-point linearisation, pole-placement control, Luenberger observer design, noisy gap/current sensors, output feedback, voltage limits, convergence analysis, and a portable C99 runtime
 - **Quarter-car active suspension:** state-space modelling, road-disturbance simulation, LQR feedback, suspension travel, tire deflection, and actuator-force analysis
 - **Elastically mounted rotary arm:** fifth-order trajectory generation, feedback-only versus 2-DOF control, feedforward, load disturbance, and actuator limits
 - **Two-tank process:** nonlinear Torricelli flow, equilibrium initialization, PI saturation, integral windup, and back-calculation anti-windup
@@ -43,9 +43,9 @@ A published clean-room MATLAB/Python reconstruction of five four-person team pro
 
 **Measured reference results:** about 70% lower rotary-arm tracking RMSE with 2-DOF control, about 35% lower active-suspension RMS body acceleration, magnetic-levitation position-estimation RMSE below 0.001 mm, and anti-windup recovery improved from about 429 s to 312 s.
 
-**Public evidence:** modular MATLAB experiments, reusable numerical and metrics utilities, requirements-to-test traceability, generated results, observer and convergence studies, 15 Python tests across Python 3.10–3.12, and 10 direct MATLAB R2024b tests in GitHub Actions.
+**Public evidence:** modular MATLAB experiments, reusable numerical and metrics utilities, source-document reconstruction mapping, requirements-to-test traceability, generated results, observer and convergence studies, 15 Python tests across Python 3.10–3.12, 10 direct MATLAB R2024b tests, and a portable C99 observer runtime compiled and tested under GCC and Clang with strict warnings.
 
-The historical exercises were academic team work. The public repository contains new portfolio reconstructions and excludes course instructions and raw team submissions.
+The historical exercises were academic team work. The uploaded reports, scripts, and Simulink material are treated as source specifications for new public implementations. Raw course instructions and team submissions are excluded.
 
 ## Development roadmap
 
@@ -70,6 +70,9 @@ Reproducible signal- and image-processing project for dataset validation, prepro
 
 ## Engineering approach
 
+- MATLAB for modelling and controller design
+- Python for independent numerical validation and automation
+- C/C++ for deterministic deployment-oriented control logic
 - Simulation and open data before unnecessary hardware purchases
 - Tests before published performance claims
 - Reproducible seeds, configurations, and experiment outputs
