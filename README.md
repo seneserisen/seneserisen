@@ -36,7 +36,7 @@ Control-engineering portfolio covering:
 - **Magnetic levitation:** nonlinear modelling, pole-placement control, Luenberger observer design, noisy sensors, convergence analysis, and a portable C99 runtime
 - **Quarter-car active suspension:** state-space modelling, LQR feedback, road disturbance, suspension travel, tire deflection, and actuator-force analysis
 - **Elastically mounted rotary arm:** fifth-order trajectory generation, feedback versus 2-DOF control, feedforward, load disturbance, and actuator limits
-- **Two-tank process:** nonlinear Torricelli flow, PI saturation, integral windup, and back-calculation anti-windup
+- **Two-tank process:** nonlinear Torricelli flow, PI saturation, back-calculation anti-windup, disturbance recovery, and a portable C99 runtime
 - **Nonlinear control loops:** Jacobian linearisation, controllability, local state feedback, and quantified model error
 
 **Measured results:**
@@ -44,9 +44,10 @@ Control-engineering portfolio covering:
 - approximately 70% lower rotary-arm tracking RMSE with 2-DOF control;
 - approximately 35% lower active-suspension RMS body acceleration;
 - magnetic-levitation position-estimation RMSE below 0.001 mm;
-- anti-windup recovery improved from approximately 429 s to 312 s.
+- anti-windup recovery improved from approximately 429 s to 312 s;
+- peak two-tank integrator growth reduced by approximately 71%.
 
-**Validation:** 15 Python tests across Python 3.10–3.12, 10 direct MATLAB R2024b tests, and a C99 runtime compiled and tested under GCC and Clang with strict warnings.
+**Validation:** 15 Python tests across Python 3.10–3.12, 10 direct MATLAB R2024b tests, and two portable C99 runtimes compiled and tested under GCC and Clang with strict warnings.
 
 ## Development roadmap
 
