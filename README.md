@@ -67,15 +67,25 @@ I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universitä
   </tr>
 </table>
 
-### [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) — Active Development
+### [FaultNav ROS 2 — Deterministic Motion and Odometry](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
 
-Python-first autonomous-mobile-robot project. The initial milestone contains an exact differential-drive kinematics core, a ROS 2 `cmd_vel`-to-odometry node, TF broadcasting, stale-command handling, launch and parameter files, automated tests, and CI configuration.
+Python-first robotics project combining an exact differential-drive model, reproducible motion experiments, an installable engineering CLI, and a ROS 2 odometry node.
 
-**Current validation boundary:** the ROS-independent Python core is tested; full ROS 2 simulator and hardware integration remain future milestones.
+<p align="center">
+  <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
+    <img width="760" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_trajectory.svg" alt="FaultNav deterministic figure-eight trajectory" />
+  </a>
+</p>
+
+**Verified deterministic result:** a 12.5664 m figure-eight trajectory executed over 25.1327 s returned to its initial position with a numerical closure error of approximately 1.812 × 10⁻¹⁴ m at a 0.2 s integration step.
+
+**Engineering evidence:** typed scenario models, exact segment-boundary handling, CSV/JSON/SVG reporting, `cmd_vel` subscription, odometry and TF publication, stale-command protection, automated tests, and green CI on Python 3.10–3.12.
+
+**Validation boundary:** the result demonstrates numerical consistency under the documented analytical model. Full physics-simulator and physical-robot validation remain future milestones.
 
 [![FaultNav Python core validation](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
 
-**Stack:** Python · ROS 2 · Odometry · TF2 · pytest · Ruff · GitHub Actions
+**Stack:** Python · ROS 2 · Differential-Drive Kinematics · Odometry · TF2 · pytest · Ruff · GitHub Actions
 
 ---
 
