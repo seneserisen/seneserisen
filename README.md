@@ -11,9 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=seneserisen&style=for-the-badge&color=2F81F7&label=Profile+Views" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Location-Bavaria%2C_Germany-2F81F7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bavaria, Germany" />
-  <img src="https://img.shields.io/badge/Open_to-Werkstudent_%26_Graduate_Roles-238636?style=for-the-badge" alt="Open to working-student and graduate roles" />
+  <img src="https://img.shields.io/badge/Open_to-Werkstudent_Roles-238636?style=for-the-badge" alt="Open to working-student roles" />
 </p>
 
 <p align="center">
@@ -22,19 +20,7 @@
 
 ---
 
-## About Me
-
-I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** with a **B.Sc. in Electrical and Electronics Engineering from Atılım University**.
-
-I build simulation-first engineering projects in **robotics, embedded systems, control, industrial data analysis, and autonomous systems**. My work emphasizes reproducible experiments, clear architecture, automated testing, and measurable engineering results.
-
-- Based in Bavaria, Germany
-- Hands-on industry experience in electronics component manufacturing, system engineering, and electrical project engineering
-- Developing engineering software with Python, MATLAB, C, and C++
-- Applying control theory, statistical monitoring, machine learning, and validation methods to engineering problems
-- Open to working-student and graduate opportunities in robotics, embedded systems, automation, control, and industrial AI
-
----
+I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** with a **B.Sc. in Electrical and Electronics Engineering from Atılım University**. Based in Bavaria, Germany, I build simulation-first projects in robotics, embedded systems, control, industrial data analysis, and autonomous systems.
 
 ## Featured Engineering Projects
 
@@ -83,11 +69,17 @@ I build simulation-first engineering projects in **robotics, embedded systems, c
 
 ---
 
-## Engineering Experience
+## About Me
 
-- **Schaeffler — Electronics Component Manufacturing Intern, Advanced Production Technology (2025):** supported e-mobility manufacturing and laboratory workflows involving process measurement, sample preparation, joining processes, laser systems, 3D printing, and optical metrology.
-- **AselsanNet — System Engineering Intern (2022):** gained practical exposure to systems-oriented engineering work and technical project support.
-- **SU-YAPI Engineering — Project Engineer Intern (2021):** supported electrical project engineering and design-related activities.
+- Developing engineering software with Python, MATLAB, C, and C++
+- Applying control theory, statistical monitoring, machine learning, and validation methods to engineering problems
+- Building reproducible workflows with automated testing, Docker, CMake, GitHub Actions, and Linux
+- Open to working-student opportunities in robotics, embedded systems, automation, control, and industrial AI
+
+## Selected Experience
+
+**Schaeffler — Electronics Component Manufacturing Intern, Advanced Production Technology (2025)**  
+Supported e-mobility manufacturing and laboratory workflows involving process measurement, sample preparation, joining processes, laser systems, 3D printing, and optical metrology.
 
 ---
 
