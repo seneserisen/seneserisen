@@ -67,6 +67,16 @@ I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universitä
   </tr>
 </table>
 
+### [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) — Active Development
+
+Python-first autonomous-mobile-robot project. The initial milestone contains an exact differential-drive kinematics core, a ROS 2 `cmd_vel`-to-odometry node, TF broadcasting, stale-command handling, launch and parameter files, automated tests, and CI configuration.
+
+**Current validation boundary:** the ROS-independent Python core is tested; full ROS 2 simulator and hardware integration remain future milestones.
+
+[![FaultNav Python core validation](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
+
+**Stack:** Python · ROS 2 · Odometry · TF2 · pytest · Ruff · GitHub Actions
+
 ---
 
 ## About Me
