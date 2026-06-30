@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/29493896/README.md)
+
 <h1 align="center">Hi, I'm Sadik Enes Erisen</h1>
 
 <p align="center">
