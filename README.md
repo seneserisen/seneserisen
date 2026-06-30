@@ -135,13 +135,9 @@ Supported e-mobility manufacturing and laboratory workflows involving process me
 
 ---
 
-## Türkçe
-
-FAU Erlangen-Nürnberg'de **Otonomi Teknolojileri yüksek lisans öğrencisiyim** ve **Elektrik-Elektronik Mühendisliği lisans mezunuyum**. Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında ölçülebilir ve tekrar üretilebilir mühendislik projeleri geliştiriyorum.
-
-**[Tam Türkçe profilimi görüntüle →](README_TR.md)**
-
----
+<p align="center">
+  <a href="README_TR.md"><b>Türkçe profil →</b></a>
+</p>
 
 <p align="center">
   <b>Engineering systems should be measurable, testable, and reproducible.</b>
