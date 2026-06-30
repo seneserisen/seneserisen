@@ -1,35 +1,38 @@
-
 <h1 align="center">Hi, I'm Sadik Enes Erisen</h1>
 
 <p align="center">
+  <b>Electrical & Electronics Engineer · M.Sc. Autonomy Technologies at FAU</b>
+</p>
+
+<p align="center">
   <a href="https://github.com/seneserisen">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=2F81F7&center=true&vCenter=true&width=720&lines=M.Sc.+Autonomy+Technologies+%40+FAU;Electrical+%26+Electronics+Engineer;Robotics+%7C+Embedded+Systems+%7C+Control;Industrial+AI+%7C+Simulation+%7C+Validation" alt="Engineering focus" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=2F81F7&center=true&vCenter=true&width=760&lines=Robotics+%7C+Embedded+Systems+%7C+Control;Industrial+AI+%7C+Simulation+%7C+Validation;Building+Measurable+and+Reproducible+Engineering+Systems" alt="Engineering focus" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=seneserisen&style=for-the-badge&color=2F81F7&label=Profile+Views" alt="Profile views" />
   <img src="https://img.shields.io/badge/Location-Bavaria%2C_Germany-2F81F7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bavaria, Germany" />
-  <img src="https://img.shields.io/badge/Open_to-Werkstudent_Roles-238636?style=for-the-badge" alt="Open to working student roles" />
+  <img src="https://img.shields.io/badge/Open_to-Werkstudent_%26_Graduate_Roles-238636?style=for-the-badge" alt="Open to working-student and graduate roles" />
 </p>
 
 <p align="center">
-  <a href="#about-me">English</a> •
-  <a href="#türkçe-özet">Türkçe</a>
+  <b>English</b> · <a href="README_TR.md">Türkçe</a>
 </p>
 
 ---
 
 ## About Me
 
-I am an **M.Sc. Autonomy Technologies student at FAU Erlangen-Nürnberg** with a **B.Sc. in Electrical and Electronics Engineering**.
+I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** with a **B.Sc. in Electrical and Electronics Engineering from Atılım University**.
 
-I build simulation-first engineering projects in **robotics, embedded systems, control, industrial data analysis, and autonomous systems**. My work emphasizes reproducible experiments, clear architecture, automated testing, and measurable results.
+I build simulation-first engineering projects in **robotics, embedded systems, control, industrial data analysis, and autonomous systems**. My work emphasizes reproducible experiments, clear architecture, automated testing, and measurable engineering results.
 
+- Based in Bavaria, Germany
+- Hands-on industry experience in electronics component manufacturing, system engineering, and electrical project engineering
 - Developing engineering software with Python, MATLAB, C, and C++
-- Applying control theory, statistical monitoring, and machine learning to engineering problems
-- Building testable workflows with Docker, CMake, GitHub Actions, and Linux
-- Open to working-student opportunities in robotics, embedded systems, automation, control, and industrial AI in Germany
+- Applying control theory, statistical monitoring, machine learning, and validation methods to engineering problems
+- Open to working-student and graduate opportunities in robotics, embedded systems, automation, control, and industrial AI
 
 ---
 
@@ -80,37 +83,34 @@ I build simulation-first engineering projects in **robotics, embedded systems, c
 
 ---
 
+## Engineering Experience
+
+- **Schaeffler — Electronics Component Manufacturing Intern, Advanced Production Technology (2025):** supported e-mobility manufacturing and laboratory workflows involving process measurement, sample preparation, joining processes, laser systems, 3D printing, and optical metrology.
+- **AselsanNet — System Engineering Intern (2022):** gained practical exposure to systems-oriented engineering work and technical project support.
+- **SU-YAPI Engineering — Project Engineer Intern (2021):** supported electrical project engineering and design-related activities.
+
+---
+
 ## Technical Stack
 
-### Programming and Data
+| Area | Technologies |
+|---|---|
+| **Programming & Data** | Python, C, C++, SQL, NumPy, pandas, Matplotlib, Jupyter Notebook |
+| **AI, ML & Analytics** | PyTorch, Power BI, Power Automate, Minitab, Microsoft Excel |
+| **Robotics, Control & Simulation** | ROS 2, MATLAB/Simulink, Gazebo, COMSOL Multiphysics, CST Studio Suite |
+| **Embedded Systems, Electronics & CAD** | LTspice, Proteus, KiCad, PTC Creo, AutoCAD, Revit, ETAP, Caneco BT |
+| **Engineering Workflow** | Linux, Git, Docker, GitHub Actions, CMake, REST APIs, AWS, SAP |
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/MATLAB-EF6C00?style=for-the-badge" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-</p>
-
-### Robotics, Control, and AI
-
-<p>
   <img src="https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
-  <img src="https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge" alt="Simulink" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Control_Systems-4B5563?style=for-the-badge" alt="Control systems" />
-  <img src="https://img.shields.io/badge/Embedded_Systems-4B5563?style=for-the-badge" alt="Embedded systems" />
-</p>
-
-### Engineering Workflow
-
-<p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
 </p>
 
 ---
@@ -120,8 +120,10 @@ I build simulation-first engineering projects in **robotics, embedded systems, c
 <p>
   <img src="https://img.shields.io/badge/English-C1_%7C_IELTS_8.0-2F81F7?style=for-the-badge" alt="English C1, IELTS 8.0" />
   <img src="https://img.shields.io/badge/Turkish-Native-E30A17?style=for-the-badge" alt="Turkish native" />
-  <img src="https://img.shields.io/badge/German-A2.2-F59E0B?style=for-the-badge" alt="German A2.2" />
+  <img src="https://img.shields.io/badge/German-A2.2_Completed_%7C_Studying_B1-F59E0B?style=for-the-badge" alt="German A2.2 completed, currently studying B1" />
 </p>
+
+**Additional languages:** Korean A1 · Japanese A1 (JLPT N5)
 
 ---
 
@@ -141,19 +143,11 @@ I build simulation-first engineering projects in **robotics, embedded systems, c
 
 ---
 
-## Türkçe Özet
+## Türkçe
 
-<details>
-  <summary><b>Türkçe profil özetini aç</b></summary>
-  <br />
+FAU Erlangen-Nürnberg'de **Otonomi Teknolojileri yüksek lisans öğrencisiyim** ve **Elektrik-Elektronik Mühendisliği lisans mezunuyum**. Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında ölçülebilir ve tekrar üretilebilir mühendislik projeleri geliştiriyorum.
 
-FAU Erlangen-Nürnberg'de **Otonomi Teknolojileri yüksek lisans öğrencisiyim** ve **Elektrik-Elektronik Mühendisliği lisans mezunuyum**.
-
-Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında; simülasyon odaklı, tekrar üretilebilir, otomatik testlerle doğrulanan ve ölçülebilir sonuçlar sunan mühendislik projeleri geliştiriyorum.
-
-Almanya'da robotik, gömülü sistemler, otomasyon, kontrol ve endüstriyel yapay zekâ alanlarındaki **Werkstudent** pozisyonlarına açığım.
-
-</details>
+**[Tam Türkçe profilimi görüntüle →](README_TR.md)**
 
 ---
 
