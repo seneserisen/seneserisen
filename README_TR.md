@@ -10,27 +10,13 @@
 
 ---
 
-## Hakkımda
-
-Friedrich-Alexander-Universität Erlangen-Nürnberg'de (FAU) **Otonomi Teknolojileri yüksek lisans öğrencisiyim**. Atılım Üniversitesi **Elektrik-Elektronik Mühendisliği lisans mezunuyum** ve Bavyera, Almanya'da yaşıyorum.
-
-Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında simülasyon odaklı mühendislik projeleri geliştiriyorum. Çalışmalarımda aşağıdaki konulara öncelik veriyorum:
-
-- Tekrar üretilebilir deneyler ve açık sistem mimarisi
-- Otomatik testler ve sürekli doğrulama
-- Ölçülebilir mühendislik sonuçları
-- Python, MATLAB, C ve C++ ile mühendislik yazılımı geliştirme
-- Kontrol teorisi, istatistiksel izleme ve makine öğrenmesinin mühendislik problemlerine uygulanması
-
-Almanya'da robotik, gömülü sistemler, otomasyon, kontrol ve endüstriyel yapay zekâ alanlarındaki **Werkstudent ve mezuniyet sonrası başlangıç seviyesi pozisyonlara** açığım.
-
----
+Friedrich-Alexander-Universität Erlangen-Nürnberg'de (FAU) **Otonomi Teknolojileri yüksek lisans öğrencisiyim**. Atılım Üniversitesi **Elektrik-Elektronik Mühendisliği lisans mezunuyum** ve Bavyera, Almanya'da yaşıyorum. Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında simülasyon odaklı projeler geliştiriyorum.
 
 ## Öne Çıkan Mühendislik Projeleri
 
 ### [Endüstriyel Kalite Anomali İzleme Sistemi](https://github.com/seneserisen/industrial-quality-anomaly-monitor)
 
-Sentetik üretim verisi oluşturan, sağlam istatistiksel yöntemler ve Isolation Forest ile anomali tespiti yapan, mühendislik KPI'ları ile görsel raporlar üreten tekrar üretilebilir bir Python projesidir.
+Sentetik üretim verisi oluşturan, sağlam istatistiksel yöntemler ve Isolation Forest ile anomali tespiti yapan, mühendislik KPI'ları ve görsel raporlar üreten tekrar üretilebilir bir Python projesidir.
 
 **Öne çıkan özellikler:**
 
@@ -58,11 +44,17 @@ Sonuçlar yalnızca dokümante edilmiş simülasyon ve test koşulları için ge
 
 ---
 
-## Mühendislik Deneyimi
+## Hakkımda
 
-- **Schaeffler — Elektronik Bileşen Üretimi Stajyeri, Advanced Production Technology (2025):** e-mobilite üretim ve laboratuvar çalışmalarında proses ölçümü, numune hazırlama, birleştirme süreçleri, lazer sistemleri, 3D baskı ve optik metroloji alanlarında uygulamalı deneyim.
-- **AselsanNet — Sistem Mühendisliği Stajyeri (2022):** sistem odaklı mühendislik çalışmaları ve teknik proje desteği deneyimi.
-- **SU-YAPI Engineering — Proje Mühendisi Stajyeri (2021):** elektrik proje mühendisliği ve tasarım çalışmalarına destek.
+- Python, MATLAB, C ve C++ ile mühendislik yazılımı geliştiriyorum
+- Kontrol teorisi, istatistiksel izleme, makine öğrenmesi ve doğrulama yöntemlerini mühendislik problemlerine uyguluyorum
+- Otomatik test, Docker, CMake, GitHub Actions ve Linux ile tekrar üretilebilir iş akışları kuruyorum
+- Almanya'da robotik, gömülü sistemler, otomasyon, kontrol ve endüstriyel yapay zekâ alanlarındaki Werkstudent pozisyonlarına açığım
+
+## Seçili Deneyim
+
+**Schaeffler — Elektronik Bileşen Üretimi Stajyeri, Advanced Production Technology (2025)**  
+E-mobilite üretim ve laboratuvar çalışmalarında proses ölçümü, numune hazırlama, birleştirme süreçleri, lazer sistemleri, 3D baskı ve optik metroloji alanlarında görev aldım.
 
 ---
 
