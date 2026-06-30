@@ -42,6 +42,26 @@ Doğrusal olmayan modelleme, durum uzayı kontrolü, LQR, gözleyiciler, aktüat
 
 Sonuçlar yalnızca dokümante edilmiş simülasyon ve test koşulları için geçerlidir.
 
+### [FaultNav ROS 2 — Deterministik Hareket ve Odometri](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
+
+Kesin diferansiyel sürüş modeli, tekrar üretilebilir hareket deneyleri, kurulabilir bir mühendislik komut satırı aracı ve ROS 2 odometri düğümünü birleştiren Python odaklı robotik projesidir.
+
+<p align="center">
+  <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
+    <img width="760" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_trajectory.svg" alt="FaultNav deterministik sekiz şekilli hareket yörüngesi" />
+  </a>
+</p>
+
+**Doğrulanmış deterministik sonuç:** `0,2 s` integrasyon adımıyla `25,1327 s` süren ve `12,5664 m` yol kat eden sekiz şekilli hareket, başlangıç konumuna yaklaşık `1,812 × 10⁻¹⁴ m` sayısal kapanma hatasıyla geri döndü.
+
+**Mühendislik kanıtı:** tip güvenli senaryo modelleri, kesin komut bölümü sınırları, CSV/JSON/SVG raporları, `cmd_vel` aboneliği, odometri ve TF yayını, eski komutlara karşı otomatik durdurma, otomatik testler ve Python 3.10–3.12 üzerinde başarılı CI doğrulaması.
+
+**Doğrulama sınırı:** bu sonuç, dokümante edilmiş analitik modelin sayısal tutarlılığını gösterir. Fizik simülatörü ve fiziksel robot doğrulaması sonraki aşamalardır; sonuç gerçek konumlama doğruluğu iddiası değildir.
+
+[![FaultNav Python doğrulaması](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
+
+**Teknolojiler:** Python · ROS 2 · Diferansiyel Sürüş Kinematiği · Odometri · TF2 · pytest · Ruff · GitHub Actions
+
 ---
 
 ## Hakkımda
