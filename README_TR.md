@@ -42,25 +42,25 @@ Doğrusal olmayan modelleme, durum uzayı kontrolü, LQR, gözleyiciler, aktüat
 
 Sonuçlar yalnızca dokümante edilmiş simülasyon ve test koşulları için geçerlidir.
 
-### [FaultNav ROS 2 — Deterministik Hareket ve Odometri](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
+### [FaultNav ROS 2 — Sensör Arıza Simülasyonu ve Odometri](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
 
-Kesin diferansiyel sürüş modeli, tekrar üretilebilir hareket deneyleri, kurulabilir bir mühendislik komut satırı aracı ve ROS 2 odometri düğümünü birleştiren Python odaklı robotik projesidir.
+Kesin diferansiyel sürüş modeli, kuantalanmış teker enkoderleri, tohumlanmış IMU simülasyonu, arıza enjeksiyonu, enkoder tabanlı odometri, tekrar üretilebilir mühendislik raporları ve ROS 2 odometri düğümünü birleştiren Python odaklı otonomi projesidir.
 
 <p align="center">
   <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
-    <img width="760" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_trajectory.svg" alt="FaultNav deterministik sekiz şekilli hareket yörüngesi" />
+    <img width="860" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_combined_faults_sensor_report.svg" alt="FaultNav teker enkoderi ve IMU arıza simülasyonu raporu" />
   </a>
 </p>
 
-**Doğrulanmış deterministik sonuç:** `0,2 s` integrasyon adımıyla `25,1327 s` süren ve `12,5664 m` yol kat eden sekiz şekilli hareket, başlangıç konumuna yaklaşık `1,812 × 10⁻¹⁴ m` sayısal kapanma hatasıyla geri döndü.
+**Doğrulanmış karşılaştırma:** nominal tohumlanmış gürültü profilinde sekiz şekilli hareket için teker odometrisi konum RMSE değeri yaklaşık **0,00723 m** oldu. Bilerek ağırlaştırılmış stres profilinde asimetrik teker kayması, enkoder ölçek hataları, jiroskop biası, iki saniyelik IMU veri kaybı ve yaw-rate aykırı değeri ile RMSE yaklaşık **4,06377 m** seviyesine yükseldi.
 
-**Mühendislik kanıtı:** tip güvenli senaryo modelleri, kesin komut bölümü sınırları, CSV/JSON/SVG raporları, `cmd_vel` aboneliği, odometri ve TF yayını, eski komutlara karşı otomatik durdurma, otomatik testler ve Python 3.10–3.12 üzerinde başarılı CI doğrulaması.
+**Mühendislik kanıtı:** birbirinden ayrılmış gerçek durum ve ölçüm yolları, kümülatif tamsayı enkoder sayımları, enkoder tabanlı odometri, `numpy.random.Generator` ile tekrar üretilebilirlik, CSV/JSON/SVG raporları, ROS 2 odometri ve TF yayını, otomatik testler ve Python 3.10–3.12 üzerinde başarılı CI doğrulaması.
 
-**Doğrulama sınırı:** bu sonuç, dokümante edilmiş analitik modelin sayısal tutarlılığını gösterir. Fizik simülatörü ve fiziksel robot doğrulaması sonraki aşamalardır; sonuç gerçek konumlama doğruluğu iddiası değildir.
+**Doğrulama sınırı:** sensör sonuçlarının tamamı kontrollü yazılım simülasyonudur. Fizik simülatörü ve fiziksel robot doğrulaması sonraki aşamalardır.
 
 [![FaultNav Python doğrulaması](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
 
-**Teknolojiler:** Python · ROS 2 · Diferansiyel Sürüş Kinematiği · Odometri · TF2 · pytest · Ruff · GitHub Actions
+**Teknolojiler:** Python · NumPy · ROS 2 · Diferansiyel Sürüş Kinematiği · Sensör Simülasyonu · Arıza Enjeksiyonu · Odometri · TF2 · pytest · Ruff · GitHub Actions
 
 ---
 
