@@ -67,25 +67,25 @@ I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universitä
   </tr>
 </table>
 
-### [FaultNav ROS 2 — Deterministic Motion and Odometry](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
+### [FaultNav ROS 2 — Sensor-Fault Simulation and Odometry](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
 
-Python-first robotics project combining an exact differential-drive model, reproducible motion experiments, an installable engineering CLI, and a ROS 2 odometry node.
+Python-first autonomy project combining exact differential-drive motion, quantised wheel encoders, seeded IMU simulation, fault injection, encoder-derived odometry, reproducible engineering reports, and a ROS 2 odometry node.
 
 <p align="center">
   <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
-    <img width="760" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_trajectory.svg" alt="FaultNav deterministic figure-eight trajectory" />
+    <img width="860" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_combined_faults_sensor_report.svg" alt="FaultNav wheel-encoder and IMU fault simulation report" />
   </a>
 </p>
 
-**Verified deterministic result:** a 12.5664 m figure-eight trajectory executed over 25.1327 s returned to its initial position with a numerical closure error of approximately 1.812 × 10⁻¹⁴ m at a 0.2 s integration step.
+**Verified reproduced comparison:** the nominal seeded-noise figure-eight produced approximately **0.00723 m wheel-position RMSE**, while an intentionally severe stress-test profile containing asymmetric wheel slip, encoder scale errors, gyro bias, a two-second IMU dropout, and a yaw-rate outlier increased RMSE to approximately **4.06377 m**.
 
-**Engineering evidence:** typed scenario models, exact segment-boundary handling, CSV/JSON/SVG reporting, `cmd_vel` subscription, odometry and TF publication, stale-command protection, automated tests, and green CI on Python 3.10–3.12.
+**Engineering evidence:** separate ground truth and measurement paths, cumulative integer encoder counts, encoder-derived odometry, `numpy.random.Generator` repeatability, CSV/JSON/SVG reporting, ROS 2 odometry and TF output, automated tests, and green CI on Python 3.10–3.12.
 
-**Validation boundary:** the result demonstrates numerical consistency under the documented analytical model. Full physics-simulator and physical-robot validation remain future milestones.
+**Validation boundary:** all sensor results are controlled software simulations. Physics-simulator and physical-robot validation remain future milestones.
 
 [![FaultNav Python core validation](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
 
-**Stack:** Python · ROS 2 · Differential-Drive Kinematics · Odometry · TF2 · pytest · Ruff · GitHub Actions
+**Stack:** Python · NumPy · ROS 2 · Differential-Drive Kinematics · Sensor Simulation · Fault Injection · Odometry · TF2 · pytest · Ruff · GitHub Actions
 
 ---
 
