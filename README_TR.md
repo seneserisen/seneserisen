@@ -1,127 +1,60 @@
-<h1 align="center">Merhaba, ben Sadik Enes Erisen</h1>
+<h1 align="center">Enes Erisen</h1>
 
 <p align="center">
-  <b>Elektrik-Elektronik Mühendisi · FAU Otonomi Teknolojileri Yüksek Lisans Öğrencisi</b>
+  <strong>Otonomi Teknolojileri Yüksek Lisansı · Robotik, Sensör Füzyonu ve Kontrol</strong>
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> · <b>Türkçe</b>
+  ROS 2 · Kamera/LiDAR/Radar Verisi · Durum Kestirimi · Mühendislik Yazılımı
 </p>
 
 ---
 
-Friedrich-Alexander-Universität Erlangen-Nürnberg'de (FAU) **Otonomi Teknolojileri yüksek lisans öğrencisiyim**. Atılım Üniversitesi **Elektrik-Elektronik Mühendisliği lisans mezunuyum** ve Bavyera, Almanya'da yaşıyorum. Robotik, gömülü sistemler, kontrol, endüstriyel veri analizi ve otonom sistemler alanlarında simülasyon odaklı projeler geliştiriyorum.
+FAU'da Otonomi Teknolojileri yüksek lisans öğrencisiyim ve Atılım Üniversitesi Elektrik-Elektronik Mühendisliği lisans mezunuyum. Ana portföyüm robotik, otonom sistemler, sensör verisi, kontrol, gömülü sistem temelleri ve tekrar üretilebilir mühendislik yazılımına odaklanıyor.
 
-## Öne Çıkan Mühendislik Projeleri
+Projelerde varsayımların, hata durumlarının ve doğrulama sınırlarının açık kalmasına önem veriyorum. Aşağıdaki çalışmaların çoğu deterministik simülasyon, sentetik veri veya açık veri kümelerine dayanır; fiziksel sistem kurulumu ya da üretim ortamı deneyimi iddiası değildir.
 
-### [Endüstriyel Kalite Anomali İzleme Sistemi](https://github.com/seneserisen/industrial-quality-anomaly-monitor)
+## Güncel çalışmalar
 
-Sentetik üretim verisi oluşturan, sağlam istatistiksel yöntemler ve Isolation Forest ile anomali tespiti yapan, mühendislik KPI'ları ve görsel raporlar üreten tekrar üretilebilir bir Python projesidir.
+- **Autonomous Sensor Fusion Lab** — doğrulanmış nuScenes kamera, LiDAR ve radar veri temelini; LiDAR başlangıç yöntemleri, radar eşleştirme ve takip çalışmalarına doğru geliştiriyorum. Veri/kalibrasyon altyapısı uygulanmış durumda; algılama ve takip henüz uygulanmadı.
+- **FaultNav ROS 2** — deterministik mobil robot ve sensör arızası simülasyonunu ROS'tan bağımsız EKF, ölçüm güncellemeleri ve innovation izleme yönünde geliştiriyorum. Kestirici şu anda plan aşamasında.
 
-**Öne çıkan özellikler:**
+## Seçili mühendislik projeleri
 
-- Makine ve üretim hattı bazlı referans dağılımları
-- Robust Z-score ve Isolation Forest yöntemleri
-- Komut satırı iş akışları
-- Birim, entegrasyon ve uçtan uca testler
-- Docker ve GitHub Actions desteği
-- Ayrıştırılması özellikle kolaylaştırılmış sentetik veri kümesinde yaklaşık 0,992 F1 skoru
+| Proje | Uygulanan çalışmalar | Durum ve sınırlar |
+| --- | --- | --- |
+| [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab) | Deterministik nuScenes tablo işleme, zaman damgası kontrolleri, sensör/araç/global koordinat dönüşümleri, kamera üzerinde LiDAR/radar izdüşümü ve kuşbakışı görselleştirme. | **Aktif, v0.1 temeli.** Gerçek nuScenes mini çalıştırması bekliyor; nesne algılama, takip veya fiziksel sensör doğrulaması iddia edilmiyor. |
+| [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) | Diferansiyel sürüş modeli, enkoder ve IMU simülasyonu, arıza enjeksiyonu, enkoder odometrisi, ROS 2 odometri/TF, raporlar ve testler. | **Aktif.** Kontrollü yazılım simülasyonu; EKF, fizik simülasyonu, SLAM, Nav2 ve donanım çalışmaları gelecek aşamalardır. |
+| [Automatic Control Laboratory](https://github.com/seneserisen/automatic-control-lab-projects) | Beş kontrol çalışması, LQR, gözleyiciler, doyum ve anti-windup, bağımsız Python referansları ve taşınabilir C99 uygulamaları. | **Sürdürülüyor.** MATLAB, Python ve C yazılım doğrulaması; donanım veya üretim kontrolcüsü iddiası yoktur. |
+| [Industrial Quality Anomaly Monitor](https://github.com/seneserisen/industrial-quality-anomaly-monitor) | Sentetik üretim verisi, global ve makine bazlı robust yöntemler, Isolation Forest, aynı veri üzerinde karşılaştırma, Docker ve testler. | **Aktif.** Sentetik karşılaştırma kanıtı; gerçek fabrika performansı değildir. |
+| **Power Electronics Manufacturing** | Kesme eğrisi ön işleme, özellik çıkarımı, toplu analiz, aykırı değer incelemesi, proses yeterlilik kontrolleri ve Weibull analizi. | **Sürdürülüyor, özel depo.** Genel/sentetik veri; gizli ya da üretim doğrulama verisi içermez. |
 
-Bu sonuç gerçek fabrika performansı iddiası değildir; proje, yöntemlerin ve doğrulama yaklaşımının gösterilmesi amacıyla hazırlanmıştır.
+## Geliştirilmesi planlanan temeller
 
-### [Otomatik Kontrol Laboratuvarı Projeleri](https://github.com/seneserisen/automatic-control-lab-projects)
+- **Embedded BMS and CAN Simulator** — yalnızca teknik kapsam ve kilometre taşı planı mevcut. C++ batarya modeli, koruma durum makinesi ve sanal CAN akışı henüz uygulanmadı.
+- **Radar / ISAR Classification Pipeline** — yalnızca teknik kapsam ve kilometre taşı planı mevcut. Veri işleme, sınıflandırma temelleri ve değerlendirme henüz uygulanmadı.
 
-Doğrusal olmayan modelleme, durum uzayı kontrolü, LQR, gözleyiciler, aktüatör doyumu, anti-windup, sayısal doğrulama ve taşınabilir C99 uygulamalarını kapsayan beş kontrol sistemi çalışmasıdır.
+## Teknik kanıt
 
-**Yayımlanan simülasyon sonuçları arasında:**
+| Alan | Gösterilen araç ve yöntemler |
+| --- | --- |
+| **Robotik ve otonomi** | Python, ROS 2 arayüzleri, diferansiyel sürüş, sensör/arıza simülasyonu, odometri, TF ve deterministik senaryolar |
+| **Otonom sürüş verisi** | nuScenes devkit, kamera/LiDAR/radar kalibrasyonu, koordinat dönüşümleri, zaman damgası kontrolleri ve izdüşüm |
+| **Kontrol ve gömülü temeller** | MATLAB, durum uzayı yöntemleri, LQR, gözleyiciler, sayısal integrasyon, anti-windup, C99 ve CMake/CTest |
+| **Üretim analitiği** | NumPy, pandas, scikit-learn, robust istatistikler, Isolation Forest, eğri analizi ve Weibull modelleme |
+| **Mühendislik iş akışı** | pytest, Ruff, GitHub Actions, Docker, komut satırı araçları ve tekrar üretilebilir raporlar |
 
-- Döner kol takip RMSE değerinde yaklaşık %70 azalma
-- Aktif süspansiyon gövde ivmesi RMS değerinde yaklaşık %35 azalma
-- Manyetik levitasyon konum tahmini RMSE değerinin 0,001 mm altında olması
-- İki tanklı sistemde anti-windup ile daha hızlı toparlanma
+## Çalışma yaklaşımım
 
-Sonuçlar yalnızca dokümante edilmiş simülasyon ve test koşulları için geçerlidir.
-
-### [Otonom Sensör Füzyon Laboratuvarı](https://github.com/seneserisen/autonomous-sensor-fusion-lab)
-
-nuScenes mini kamera, LiDAR ve otomotiv radarı verilerinin deterministik biçimde yüklenmesi; kalibre edilmiş sensör-ego/global dönüşümleri; farklı zaman damgalarına sahip sensör verilerinin kamera izdüşümü; kuş bakışı görselleştirme; zaman damgası ve veri kalitesi tanıları için geliştirilmiş Python 3.12 temel projesidir.
-
-**Doğrulanmış yazılım kanıtı:** 29 sentetik ve nuScenes tablo sözleşmesi testi, %85 ifade kapsamı, deterministik JSON/CSV/PNG çıktıları, Ruff doğrulaması ve GitHub Actions CI. Gerçek nuScenes veri kümesiyle çalıştırma henüz yapılmamıştır; proje fiziksel sensör veya üretim aracı doğrulaması iddiasında değildir.
-
-[![Otonom Sensör Füzyon Laboratuvarı CI](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml)
-
-**Teknolojiler:** Python · NumPy · nuScenes Devkit · Kamera/LiDAR/Radar Kalibrasyonu · Koordinat Dönüşümleri · Zaman Damgası Tanıları · pytest · Ruff · GitHub Actions
-
-### [FaultNav ROS 2 — Sensör Arıza Simülasyonu ve Odometri](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
-
-Kesin diferansiyel sürüş modeli, kuantalanmış teker enkoderleri, tohumlanmış IMU simülasyonu, arıza enjeksiyonu, enkoder tabanlı odometri, tekrar üretilebilir mühendislik raporları ve ROS 2 odometri düğümünü birleştiren Python odaklı otonomi projesidir.
-
-<p align="center">
-  <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
-    <img width="860" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_combined_faults_sensor_report.svg" alt="FaultNav teker enkoderi ve IMU arıza simülasyonu raporu" />
-  </a>
-</p>
-
-**Doğrulanmış karşılaştırma:** nominal tohumlanmış gürültü profilinde sekiz şekilli hareket için teker odometrisi konum RMSE değeri yaklaşık **0,00723 m** oldu. Bilerek ağırlaştırılmış stres profilinde asimetrik teker kayması, enkoder ölçek hataları, jiroskop biası, iki saniyelik IMU veri kaybı ve yaw-rate aykırı değeri ile RMSE yaklaşık **4,06377 m** seviyesine yükseldi.
-
-**Mühendislik kanıtı:** birbirinden ayrılmış gerçek durum ve ölçüm yolları, kümülatif tamsayı enkoder sayımları, enkoder tabanlı odometri, `numpy.random.Generator` ile tekrar üretilebilirlik, CSV/JSON/SVG raporları, ROS 2 odometri ve TF yayını, otomatik testler ve Python 3.10–3.12 üzerinde başarılı CI doğrulaması.
-
-**Doğrulama sınırı:** sensör sonuçlarının tamamı kontrollü yazılım simülasyonudur. Fizik simülatörü ve fiziksel robot doğrulaması sonraki aşamalardır.
-
-[![FaultNav Python doğrulaması](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
-
-**Teknolojiler:** Python · NumPy · ROS 2 · Diferansiyel Sürüş Kinematiği · Sensör Simülasyonu · Arıza Enjeksiyonu · Odometri · TF2 · pytest · Ruff · GitHub Actions
-
----
-
-## Hakkımda
-
-- Python, MATLAB, C ve C++ ile mühendislik yazılımı geliştiriyorum
-- Kontrol teorisi, istatistiksel izleme, makine öğrenmesi ve doğrulama yöntemlerini mühendislik problemlerine uyguluyorum
-- Otomatik test, Docker, CMake, GitHub Actions ve Linux ile tekrar üretilebilir iş akışları kuruyorum
-- Almanya'da robotik, gömülü sistemler, otomasyon, kontrol ve endüstriyel yapay zekâ alanlarındaki Werkstudent pozisyonlarına açığım
-
-## Seçili Deneyim
-
-**Schaeffler — Elektronik Bileşen Üretimi Stajyeri, Advanced Production Technology (2025)**  
-E-mobilite üretim ve laboratuvar çalışmalarında proses ölçümü, numune hazırlama, birleştirme süreçleri, lazer sistemleri, 3D baskı ve optik metroloji alanlarında görev aldım.
-
----
-
-## Teknik Yetkinlikler
-
-| Alan | Teknolojiler |
-|---|---|
-| **Programlama ve Veri** | Python, C, C++, SQL, NumPy, pandas, Matplotlib, Jupyter Notebook |
-| **Yapay Zekâ, Makine Öğrenmesi ve Analitik** | PyTorch, Power BI, Power Automate, Minitab, Microsoft Excel |
-| **Robotik, Kontrol ve Simülasyon** | ROS 2, MATLAB/Simulink, Gazebo, COMSOL Multiphysics, CST Studio Suite |
-| **Gömülü Sistemler, Elektronik ve CAD** | LTspice, Proteus, KiCad, PTC Creo, AutoCAD, Revit, ETAP, Caneco BT |
-| **Mühendislik İş Akışı** | Linux, Git, Docker, GitHub Actions, CMake, REST API'leri, AWS, SAP |
-
----
-
-## Diller
-
-- **Türkçe:** Ana dil
-- **İngilizce:** C1 — IELTS Academic 8.0
-- **Almanca:** A2.2 tamamlandı, B1 eğitimi devam ediyor
-- **Korece:** A1
-- **Japonca:** A1 — JLPT N5
-
----
-
-## Profesyonel Hedef
-
-Özellikle aşağıdaki alanlarda ölçülebilir ve doğrulanabilir mühendislik projeleri geliştirmeye devam ediyorum:
-
-- Robotik ve otonom sistemler
-- Gömülü yazılım ve elektronik sistemler
-- Kontrol sistemleri ve simülasyon
-- Endüstriyel veri analizi ve yapay zekâ
-- Test otomasyonu ve mühendislik doğrulaması
+- Gerçek durumu, ölçümleri, kestirimleri ve değerlendirme verisini birbirinden ayırmak.
+- Birimleri, koordinat sistemlerini, zaman damgalarını ve varsayımları açıkça belgelemek.
+- Sonuç yayımlamadan önce deterministik senaryolar ve otomatik testler kullanmak.
+- Hatalı veya reddedilen veriyi sessizce silmek yerine görünür tutmak.
+- Yazılım kanıtı ile gerçek dünya doğrulamasını birbirine karıştırmamak.
 
 ---
 
 <p align="center">
-  <b>Mühendislik sistemleri ölçülebilir, test edilebilir ve tekrar üretilebilir olmalıdır.</b>
+  <strong>Mühendislik kanıtı ölçülebilir, test edilebilir ve tekrar üretilebilir olmalıdır.</strong><br />
+  <a href="https://github.com/seneserisen">github.com/seneserisen</a>
 </p>

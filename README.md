@@ -1,174 +1,60 @@
-<h1 align="center">Hi, I'm Sadik Enes Erisen</h1>
+<h1 align="center">Enes Erisen</h1>
 
 <p align="center">
-  <b>Electrical & Electronics Engineer · M.Sc. Autonomy Technologies at FAU</b>
+  <strong>MSc Autonomy Technologies · Robotics, Sensor Fusion and Control</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/seneserisen">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=2F81F7&center=true&vCenter=true&width=760&lines=Robotics+%7C+Embedded+Systems+%7C+Control;Industrial+AI+%7C+Simulation+%7C+Validation;Building+Measurable+and+Reproducible+Engineering+Systems" alt="Engineering focus" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to-Werkstudent_Roles-238636?style=for-the-badge" alt="Open to working-student roles" />
-</p>
-
-<p align="center">
-  <b>English</b> · <a href="README_TR.md">Türkçe</a>
+  ROS 2 · Camera/LiDAR/Radar Data · State Estimation · Engineering Software
 </p>
 
 ---
 
-I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** with a **B.Sc. in Electrical and Electronics Engineering from Atılım University**. Based in Bavaria, Germany, I build simulation-first projects in robotics, embedded systems, control, industrial data analysis, and autonomous systems.
+I am an MSc student in Autonomy Technologies at FAU with a BSc in Electrical and Electronics Engineering from Atilim University. My primary portfolio focuses on robotics, autonomous systems, sensor data, control, embedded foundations and reproducible engineering software.
 
-## Featured Engineering Projects
+I prefer projects where assumptions, failure cases and validation limits remain visible. Most of the evidence below comes from deterministic simulation, synthetic data or public datasets; it should not be read as physical deployment or production-vehicle experience.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/seneserisen/industrial-quality-anomaly-monitor">
-          Industrial Quality Anomaly Monitor
-        </a>
-      </h3>
-      <p>
-        Reproducible Python pipeline for synthetic manufacturing data, robust statistical monitoring,
-        Isolation Forest detection, engineering KPIs, visual reports, CLI workflows, tests, and Docker.
-      </p>
-      <p>
-        <b>Verified synthetic benchmark:</b> F1 score ≈ 0.992 on a deterministic dataset with deliberately
-        separable failure signatures. This is a portfolio benchmark, not real-factory validation.
-      </p>
-      <p>
-        <img src="https://github.com/seneserisen/industrial-quality-anomaly-monitor/actions/workflows/ci.yml/badge.svg" alt="Industrial monitor CI" />
-      </p>
-      <p><b>Stack:</b> Python · NumPy · pandas · Machine Learning · pytest · Docker · GitHub Actions</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/seneserisen/automatic-control-lab-projects">
-          Automatic Control Laboratory Projects
-        </a>
-      </h3>
-      <p>
-        Five control-system studies covering nonlinear modelling, state-space control, LQR, observers,
-        actuator saturation, anti-windup, numerical validation, and portable C99 implementations.
-      </p>
-      <p>
-        <b>Published simulation results include:</b> about 70% lower rotary-arm tracking RMSE and about
-        35% lower active-suspension RMS body acceleration under the documented test conditions.
-      </p>
-      <p>
-        <img src="https://github.com/seneserisen/automatic-control-lab-projects/actions/workflows/validate.yml/badge.svg" alt="Control portfolio validation" />
-      </p>
-      <p><b>Stack:</b> MATLAB · Python · C99 · CMake · CTest · GCC · Clang · GitHub Actions</p>
-    </td>
-  </tr>
-</table>
+## Current work
 
-### [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab)
+- **Autonomous Sensor Fusion Lab** — building from validated nuScenes camera, LiDAR and radar ingestion toward transparent LiDAR baselines, radar association and tracking. The dataset/calibration foundation is implemented; perception and tracking are not.
+- **FaultNav ROS 2** — extending deterministic mobile-robot and sensor-fault simulation toward a ROS-independent EKF, measurement updates and innovation monitoring. The estimator remains planned work.
 
-Python 3.12 foundation for deterministic nuScenes mini camera, LiDAR, and automotive-radar ingestion; calibrated sensor-to-ego/global transforms; cross-time camera projection; bird's-eye visualization; and timestamp and data-quality diagnostics.
+## Selected engineering projects
 
-**Verified software evidence:** 29 synthetic and nuScenes table-contract tests, 85% statement coverage, deterministic JSON/CSV/PNG artifacts, Ruff validation, and GitHub Actions CI. A real nuScenes dataset run remains pending; this project does not claim physical sensor or production-vehicle validation.
+| Project | What is implemented | Status and boundary |
+| --- | --- | --- |
+| [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab) | Deterministic nuScenes table traversal, timestamp diagnostics, calibrated sensor-to-ego/global transforms, cross-time LiDAR/radar camera projection, bird's-eye visualization and synthetic CI fixtures. | **Active, v0.1 foundation.** A real nuScenes mini run is still pending; no detection, tracking or physical sensor validation is claimed. |
+| [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) | Exact differential-drive motion, quantised encoder and seeded IMU simulation, fault injection, encoder-derived odometry, ROS 2 odometry/TF, reports and automated tests. | **Active.** Controlled software simulation only; EKF, physics simulation, SLAM, Nav2 and hardware work remain future milestones. |
+| [Automatic Control Laboratory](https://github.com/seneserisen/automatic-control-lab-projects) | Five nonlinear/state-space control studies, LQR, observers, saturation and anti-windup, independent Python references and portable C99 runtimes. | **Maintained.** MATLAB, Python and C software validation; no hardware or production-controller claim. |
+| [Industrial Quality Anomaly Monitor](https://github.com/seneserisen/industrial-quality-anomaly-monitor) | Deterministic synthetic manufacturing data, global and machine-aware robust baselines, Isolation Forest, a shared-dataset comparison runner, reports, Docker and tests. | **Active.** Synthetic comparison evidence, not real-factory performance. |
+| **Power Electronics Manufacturing** | A tested Python shear-curve workflow covering preprocessing, features, batch validation, review-oriented outlier evidence, capability gates and two-parameter Weibull analysis. | **Maintained, private repository.** Generic/synthetic data only; no proprietary or production validation evidence. |
 
-[![Autonomous Sensor Fusion Lab CI](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml)
+## Engineering foundations in development
 
-**Stack:** Python · NumPy · nuScenes Devkit · Camera/LiDAR/Radar Calibration · Coordinate Transforms · Timestamp Diagnostics · pytest · Ruff · GitHub Actions
+- **Embedded BMS and CAN Simulator** — specification and milestone plan only. The intended C++ battery model, protection state machine and virtual CAN workflow do not yet have an executable foundation.
+- **Radar / ISAR Classification Pipeline** — specification and milestone plan only. Dataset processing, baselines and evaluation are not yet implemented.
 
-### [FaultNav ROS 2 — Sensor-Fault Simulation and Odometry](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
+## Technical evidence
 
-Python-first autonomy project combining exact differential-drive motion, quantised wheel encoders, seeded IMU simulation, fault injection, encoder-derived odometry, reproducible engineering reports, and a ROS 2 odometry node.
+| Area | Demonstrated tools and methods |
+| --- | --- |
+| **Robotics and autonomy** | Python, ROS 2 interfaces, differential-drive modelling, sensor/fault simulation, odometry, TF and deterministic scenarios |
+| **Autonomous-driving data** | nuScenes devkit, camera/LiDAR/radar calibration, coordinate transforms, timestamp diagnostics, projection and bird's-eye visualization |
+| **Control and embedded foundations** | MATLAB, state-space methods, LQR, observers, numerical integration, saturation, anti-windup, portable fixed-size C99 and CMake/CTest |
+| **Manufacturing analytics** | NumPy, pandas, scikit-learn, robust statistics, Isolation Forest, curve analysis, process diagnostics and Weibull modelling |
+| **Engineering workflow** | pytest, Ruff, GitHub Actions, Docker, reproducible CLIs and reviewable CSV/JSON/SVG/PNG artifacts |
 
-<p align="center">
-  <a href="https://github.com/seneserisen/ros2-autonomous-mobile-robot">
-    <img width="860" src="https://raw.githubusercontent.com/seneserisen/ros2-autonomous-mobile-robot/main/examples/figure_eight_combined_faults_sensor_report.svg" alt="FaultNav wheel-encoder and IMU fault simulation report" />
-  </a>
-</p>
+## How I work
 
-**Verified reproduced comparison:** the nominal seeded-noise figure-eight produced approximately **0.00723 m wheel-position RMSE**, while an intentionally severe stress-test profile containing asymmetric wheel slip, encoder scale errors, gyro bias, a two-second IMU dropout, and a yaw-rate outlier increased RMSE to approximately **4.06377 m**.
-
-**Engineering evidence:** separate ground truth and measurement paths, cumulative integer encoder counts, encoder-derived odometry, `numpy.random.Generator` repeatability, CSV/JSON/SVG reporting, ROS 2 odometry and TF output, automated tests, and green CI on Python 3.10–3.12.
-
-**Validation boundary:** all sensor results are controlled software simulations. Physics-simulator and physical-robot validation remain future milestones.
-
-[![FaultNav Python core validation](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml/badge.svg)](https://github.com/seneserisen/ros2-autonomous-mobile-robot/actions/workflows/python-core.yml)
-
-**Stack:** Python · NumPy · ROS 2 · Differential-Drive Kinematics · Sensor Simulation · Fault Injection · Odometry · TF2 · pytest · Ruff · GitHub Actions
-
----
-
-## About Me
-
-- Developing engineering software with Python, MATLAB, C, and C++
-- Applying control theory, statistical monitoring, machine learning, and validation methods to engineering problems
-- Building reproducible workflows with automated testing, Docker, CMake, GitHub Actions, and Linux
-- Open to working-student opportunities in robotics, embedded systems, automation, control, and industrial AI
-
-## Selected Experience
-
-**Schaeffler — Electronics Component Manufacturing Intern, Advanced Production Technology (2025)**  
-Supported e-mobility manufacturing and laboratory workflows involving process measurement, sample preparation, joining processes, laser systems, 3D printing, and optical metrology.
-
----
-
-## Technical Stack
-
-| Area | Technologies |
-|---|---|
-| **Programming & Data** | Python, C, C++, SQL, NumPy, pandas, Matplotlib, Jupyter Notebook |
-| **AI, ML & Analytics** | PyTorch, Power BI, Power Automate, Minitab, Microsoft Excel |
-| **Robotics, Control & Simulation** | ROS 2, MATLAB/Simulink, Gazebo, COMSOL Multiphysics, CST Studio Suite |
-| **Embedded Systems, Electronics & CAD** | LTspice, Proteus, KiCad, PTC Creo, AutoCAD, Revit, ETAP, Caneco BT |
-| **Engineering Workflow** | Linux, Git, Docker, GitHub Actions, CMake, REST APIs, AWS, SAP |
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/MATLAB-EF6C00?style=for-the-badge" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
-
----
-
-## Languages
-
-<p>
-  <img src="https://img.shields.io/badge/English-C1_%7C_IELTS_8.0-2F81F7?style=for-the-badge" alt="English C1, IELTS 8.0" />
-  <img src="https://img.shields.io/badge/Turkish-Native-E30A17?style=for-the-badge" alt="Turkish native" />
-  <img src="https://img.shields.io/badge/German-A2.2_Completed_%7C_Studying_B1-F59E0B?style=for-the-badge" alt="German A2.2 completed, currently studying B1" />
-</p>
-
-**Additional languages:** Korean A1 · Japanese A1 (JLPT N5)
-
----
-
-## Contribution Activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-  </picture>
-</p>
+- Separate ground truth, measurements, estimates and evaluation data.
+- Record units, coordinate frames, timestamps and assumptions explicitly.
+- Use deterministic scenarios and tests before publishing measurements.
+- Keep failure handling and rejected data visible instead of silently cleaning it away.
+- Distinguish software evidence from real-world validation.
 
 ---
 
 <p align="center">
-  <a href="README_TR.md"><b>Türkçe profil →</b></a>
-</p>
-
-<p align="center">
-  <b>Engineering systems should be measurable, testable, and reproducible.</b>
+  <strong>Engineering evidence should be measurable, testable and reproducible.</strong><br />
+  <a href="https://github.com/seneserisen">github.com/seneserisen</a>
 </p>
