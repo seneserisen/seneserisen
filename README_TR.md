@@ -42,6 +42,16 @@ Doğrusal olmayan modelleme, durum uzayı kontrolü, LQR, gözleyiciler, aktüat
 
 Sonuçlar yalnızca dokümante edilmiş simülasyon ve test koşulları için geçerlidir.
 
+### [Otonom Sensör Füzyon Laboratuvarı](https://github.com/seneserisen/autonomous-sensor-fusion-lab)
+
+nuScenes mini kamera, LiDAR ve otomotiv radarı verilerinin deterministik biçimde yüklenmesi; kalibre edilmiş sensör-ego/global dönüşümleri; farklı zaman damgalarına sahip sensör verilerinin kamera izdüşümü; kuş bakışı görselleştirme; zaman damgası ve veri kalitesi tanıları için geliştirilmiş Python 3.12 temel projesidir.
+
+**Doğrulanmış yazılım kanıtı:** 29 sentetik ve nuScenes tablo sözleşmesi testi, %85 ifade kapsamı, deterministik JSON/CSV/PNG çıktıları, Ruff doğrulaması ve GitHub Actions CI. Gerçek nuScenes veri kümesiyle çalıştırma henüz yapılmamıştır; proje fiziksel sensör veya üretim aracı doğrulaması iddiasında değildir.
+
+[![Otonom Sensör Füzyon Laboratuvarı CI](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml)
+
+**Teknolojiler:** Python · NumPy · nuScenes Devkit · Kamera/LiDAR/Radar Kalibrasyonu · Koordinat Dönüşümleri · Zaman Damgası Tanıları · pytest · Ruff · GitHub Actions
+
 ### [FaultNav ROS 2 — Sensör Arıza Simülasyonu ve Odometri](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
 
 Kesin diferansiyel sürüş modeli, kuantalanmış teker enkoderleri, tohumlanmış IMU simülasyonu, arıza enjeksiyonu, enkoder tabanlı odometri, tekrar üretilebilir mühendislik raporları ve ROS 2 odometri düğümünü birleştiren Python odaklı otonomi projesidir.

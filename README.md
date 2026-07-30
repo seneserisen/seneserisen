@@ -67,6 +67,16 @@ I am an **M.Sc. Autonomy Technologies student at Friedrich-Alexander-Universitä
   </tr>
 </table>
 
+### [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab)
+
+Python 3.12 foundation for deterministic nuScenes mini camera, LiDAR, and automotive-radar ingestion; calibrated sensor-to-ego/global transforms; cross-time camera projection; bird's-eye visualization; and timestamp and data-quality diagnostics.
+
+**Verified software evidence:** 29 synthetic and nuScenes table-contract tests, 85% statement coverage, deterministic JSON/CSV/PNG artifacts, Ruff validation, and GitHub Actions CI. A real nuScenes dataset run remains pending; this project does not claim physical sensor or production-vehicle validation.
+
+[![Autonomous Sensor Fusion Lab CI](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/seneserisen/autonomous-sensor-fusion-lab/actions/workflows/ci.yml)
+
+**Stack:** Python · NumPy · nuScenes Devkit · Camera/LiDAR/Radar Calibration · Coordinate Transforms · Timestamp Diagnostics · pytest · Ruff · GitHub Actions
+
 ### [FaultNav ROS 2 — Sensor-Fault Simulation and Odometry](https://github.com/seneserisen/ros2-autonomous-mobile-robot)
 
 Python-first autonomy project combining exact differential-drive motion, quantised wheel encoders, seeded IMU simulation, fault injection, encoder-derived odometry, reproducible engineering reports, and a ROS 2 odometry node.
