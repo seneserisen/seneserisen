@@ -8,6 +8,10 @@
   ROS 2 · Camera/LiDAR/Radar Data · State Estimation · Engineering Software
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=2F81F7&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Robotics+%C2%B7+Autonomous+Systems+%C2%B7+Sensor+Fusion;ROS+2+%C2%B7+Control+%C2%B7+Embedded+Systems;Measurable+and+Reproducible+Engineering+Software" alt="Robotics, autonomy and engineering focus" />
+</p>
+
 ---
 
 I am an MSc student in Autonomy Technologies at FAU with a BSc in Electrical and Electronics Engineering from Atilim University. My primary portfolio focuses on robotics, autonomous systems, sensor data, control, embedded foundations and reproducible engineering software.
@@ -51,6 +55,20 @@ I prefer projects where assumptions, failure cases and validation limits remain 
 - Use deterministic scenarios and tests before publishing measurements.
 - Keep failure handling and rejected data visible instead of silently cleaning it away.
 - Distinguish software evidence from real-world validation.
+
+## Contribution activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
+  </picture>
+</p>
 
 ---
 

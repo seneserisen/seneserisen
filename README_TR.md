@@ -8,6 +8,10 @@
   ROS 2 · Kamera/LiDAR/Radar Verisi · Durum Kestirimi · Mühendislik Yazılımı
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=2F81F7&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Robotik+%C2%B7+Otonom+Sistemler+%C2%B7+Sens%C3%B6r+F%C3%BCzyonu;ROS+2+%C2%B7+Kontrol+%C2%B7+G%C3%B6m%C3%BCl%C3%BC+Sistemler;%C3%96l%C3%A7%C3%BClebilir+ve+Tekrar+%C3%9Cretilebilir+M%C3%BChendislik+Yaz%C4%B1l%C4%B1m%C4%B1" alt="Robotik, otonomi ve mühendislik odağı" />
+</p>
+
 ---
 
 FAU'da Otonomi Teknolojileri yüksek lisans öğrencisiyim ve Atılım Üniversitesi Elektrik-Elektronik Mühendisliği lisans mezunuyum. Ana portföyüm robotik, otonom sistemler, sensör verisi, kontrol, gömülü sistem temelleri ve tekrar üretilebilir mühendislik yazılımına odaklanıyor.
@@ -51,6 +55,20 @@ Projelerde varsayımların, hata durumlarının ve doğrulama sınırlarının a
 - Sonuç yayımlamadan önce deterministik senaryolar ve otomatik testler kullanmak.
 - Hatalı veya reddedilen veriyi sessizce silmek yerine görünür tutmak.
 - Yazılım kanıtı ile gerçek dünya doğrulamasını birbirine karıştırmamak.
+
+## Katkı etkinliği
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3B katkı takvimi" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" alt="Hareketli katkı yılanı" />
+  </picture>
+</p>
 
 ---
 
