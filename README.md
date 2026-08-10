@@ -9,19 +9,24 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=2F81F7&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Robotics+%C2%B7+Autonomous+Systems+%C2%B7+Sensor+Fusion;ROS+2+%C2%B7+Control+%C2%B7+Embedded+Systems;Measurable+and+Reproducible+Engineering+Software" alt="Robotics, autonomy and engineering focus" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&amp;logo=c&amp;logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/MATLAB-EF6C00?style=flat-square" alt="MATLAB" />
+  <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&amp;logo=cmake&amp;logoColor=white" alt="CMake" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" />
 </p>
 
 ---
 
-I am an MSc student in Autonomy Technologies at FAU with a BSc in Electrical and Electronics Engineering from Atilim University. My primary portfolio focuses on robotics, autonomous systems, sensor data, control, embedded foundations and reproducible engineering software.
+I am an MSc student in Autonomy Technologies at FAU with a BSc in Electrical and Electronics Engineering from Atilim University. My primary portfolio focuses on robotics, autonomous systems, sensor data, control, embedded systems and reproducible engineering software.
 
-I prefer projects where assumptions, failure cases and validation limits remain visible. Most of the evidence below comes from deterministic simulation, synthetic data or public datasets; it should not be read as physical deployment or production-vehicle experience.
+I am targeting robotics, autonomy and Robot Deployment Engineer roles. The evidence below comes from deterministic simulation, synthetic data and public datasets; planned work and validation limits are labelled explicitly.
 
-## Current work
-
-- **Autonomous Sensor Fusion Lab** — building from validated nuScenes camera, LiDAR and radar ingestion toward transparent LiDAR baselines, radar association and tracking. The dataset/calibration foundation is implemented; perception and tracking are not.
-- **FaultNav ROS 2** — extending deterministic mobile-robot and sensor-fault simulation toward a ROS-independent EKF, measurement updates and innovation monitoring. The estimator remains planned work.
+**Currently building:** [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab) and [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot).
 
 ## Selected engineering projects
 
@@ -55,20 +60,6 @@ I prefer projects where assumptions, failure cases and validation limits remain 
 - Use deterministic scenarios and tests before publishing measurements.
 - Keep failure handling and rejected data visible instead of silently cleaning it away.
 - Distinguish software evidence from real-world validation.
-
-## Contribution activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/seneserisen/seneserisen/main/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
-  </picture>
-</p>
 
 ---
 
