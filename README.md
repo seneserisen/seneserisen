@@ -33,7 +33,7 @@ I am targeting robotics, autonomy and Robot Deployment Engineer roles. The evide
 | Project | What is implemented | Status and boundary |
 | --- | --- | --- |
 | [Autonomous Sensor Fusion Lab](https://github.com/seneserisen/autonomous-sensor-fusion-lab) | Deterministic nuScenes table traversal, timestamp diagnostics, calibrated sensor-to-ego/global transforms, cross-time LiDAR/radar camera projection, bird's-eye visualization and synthetic CI fixtures. | **Active, v0.1 foundation.** A real nuScenes mini run is still pending; no detection, tracking or physical sensor validation is claimed. |
-| [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) | Exact differential-drive motion, quantised encoder and seeded IMU simulation, fault injection, encoder-derived odometry, ROS 2 odometry/TF, reports and automated tests. | **Active.** Controlled software simulation only; EKF, physics simulation, SLAM, Nav2 and hardware work remain future milestones. |
+| [FaultNav ROS 2](https://github.com/seneserisen/ros2-autonomous-mobile-robot) | Exact differential-drive motion, quantised encoder and seeded IMU simulation, fault injection, encoder-derived odometry, ROS 2 odometry/TF and a ROS-independent five-state EKF prediction layer. | **Active.** Controlled software simulation only; EKF measurement updates, innovation monitoring, physics simulation, SLAM, Nav2 and hardware work remain future milestones. |
 | [Automatic Control Laboratory](https://github.com/seneserisen/automatic-control-lab-projects) | Five nonlinear/state-space control studies, LQR, observers, saturation and anti-windup, independent Python references and portable C99 runtimes. | **Maintained.** MATLAB, Python and C software validation; no hardware or production-controller claim. |
 | [Industrial Quality Anomaly Monitor](https://github.com/seneserisen/industrial-quality-anomaly-monitor) | Deterministic synthetic manufacturing data, global and machine-aware robust baselines, Isolation Forest, a shared-dataset comparison runner, reports, Docker and tests. | **Active.** Synthetic comparison evidence, not real-factory performance. |
 | **Power Electronics Manufacturing** | A tested Python shear-curve workflow covering preprocessing, features, batch validation, review-oriented outlier evidence, capability gates and two-parameter Weibull analysis. | **Maintained, private repository.** Generic/synthetic data only; no proprietary or production validation evidence. |
@@ -47,7 +47,7 @@ I am targeting robotics, autonomy and Robot Deployment Engineer roles. The evide
 
 | Area | Demonstrated tools and methods |
 | --- | --- |
-| **Robotics and autonomy** | Python, ROS 2 interfaces, differential-drive modelling, sensor/fault simulation, odometry, TF and deterministic scenarios |
+| **Robotics and autonomy** | Python, ROS 2 interfaces, differential-drive modelling, sensor/fault simulation, odometry, TF, EKF state prediction and deterministic scenarios |
 | **Autonomous-driving data** | nuScenes devkit, camera/LiDAR/radar calibration, coordinate transforms, timestamp diagnostics, projection and bird's-eye visualization |
 | **Control and embedded foundations** | MATLAB, state-space methods, LQR, observers, numerical integration, saturation, anti-windup, portable fixed-size C99 and CMake/CTest |
 | **Manufacturing analytics** | NumPy, pandas, scikit-learn, robust statistics, Isolation Forest, curve analysis, process diagnostics and Weibull modelling |
